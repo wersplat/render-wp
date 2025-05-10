@@ -35,6 +35,7 @@ services:
   repo: https://github.com/render-examples/mysql.git
   env: docker
   plan: starter
+  region: virginia
   autoDeploy: false
   disk:
     name: mysql-wordpress
